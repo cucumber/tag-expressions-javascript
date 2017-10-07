@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/cucumber/tag-expressions-javascript",
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^4.1.0",
     "eslint-config-prettier": "^2.1.1",
     "eslint-plugin-prettier": "^2.1.1",
     "istanbul": "^0.4.0",
