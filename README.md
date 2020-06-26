@@ -12,6 +12,6 @@ const tagExpressions = require("@cucumber/tag-expressions")
 
 const expressionNode = tagExpressions.default('@tagA and @tagB')
 
-expressionNode.evaluate(["@tagA", "@tagB"])
-expressionNode.evaluate(["@tagA", "@tagC"])
+expressionNode.evaluate(["@tagA", "@tagB"]) // => true
+expressionNode.evaluate(["@tagA", "@tagC"]) // => false
 ```
